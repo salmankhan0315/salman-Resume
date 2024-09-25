@@ -1,0 +1,477 @@
+@media only screen and (max-width: 1920px) and (min-width: 1500px) {
+	.container {
+		max-width: 1450px;
+	}
+	.hidden-lg{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1600px) {
+}
+
+@media only screen and (max-width: 1445px) {
+
+
+
+    .link ul li img {
+        height: 55px;
+    }
+    
+    .link li button {
+        font-size: 24px;
+    }
+    
+    .link ul {
+        margin-bottom: 13px;
+    }
+    
+    .laptop.text-center img {
+        height: 362px;
+        margin-top: 66px;
+    }
+    
+    .line.red-line {
+        margin-top: -79px;
+    }
+    .banner-logo-img {
+        width: 79%;
+        margin: auto;
+        margin-bottom: 176px;
+        padding: 8px;
+    }
+    
+    .banner-logo-img li img {width: 83%;padding-left: 32px;}
+    
+    .salman .salman-text h1 {
+        font-size: 51px;
+        margin: -16px;
+    }
+    
+    .salman .salman-text h1 span {font-weight: bold;}
+    
+    .salman .salman-text h3 {
+        font-size: 36px;
+    }
+    
+    .salman .salman-text p {
+        font-size: 23px;
+    }
+    
+    .salman .salman-text p span {
+        font-size: 18px;
+    }
+    
+    .banner img {
+        width: 86% !important;
+        margin: 41px 100px;
+    }
+    
+    button.btn-Adobe.custom.btn3 {
+        margin-left: 111px;
+    }
+    
+  
+    button.btn-Adobe.custom.btn2 {
+        margin-left: 29px;
+    }
+    .box-4year h2 {
+        font-size: 36px;
+        letter-spacing: 2px;
+    }
+    
+    .box-4year h1 {
+        font-size: 55px;
+    }
+   
+    
+    .logo-ul img {
+        width: 97%;
+    }
+    
+    .logo-box {
+        width: 91%;
+        margin: auto;
+        margin-top: 32px;
+    }
+    
+}
+
+@media only screen and (max-width: 1366px) {
+	html {
+		font-size: 15px;
+	}
+    .link ul li img {
+        height: 55px;
+    }
+    
+    .link li button {
+        font-size: 24px;
+    }
+    
+    .link ul {
+        margin-bottom: 13px;
+    }
+    
+    .laptop.text-center img {
+        height: 362px;
+        margin-top: 66px;
+    }
+    
+    .line.red-line {
+        margin-top: -79px;
+    }
+    .banner-logo-img {
+        width: 79%;
+        margin: auto;
+        margin-bottom: 120px;
+        padding: 8px;
+    }
+    
+    .banner-logo-img li img {width: 83%;padding-left: 32px;}
+    
+    .salman .salman-text h1 {
+        font-size: 51px;
+        margin: -16px;
+    }
+    
+    .salman .salman-text h1 span {font-weight: bold;}
+    
+    .salman .salman-text h3 {
+        font-size: 36px;
+    }
+    
+    .salman .salman-text p {
+        font-size: 23px;
+    }
+    
+    .salman .salman-text p span {
+        font-size: 18px;
+    }
+    
+    .banner img {
+        width: 86% !important;
+        margin: 41px 100px;
+    }
+    
+    button.btn-Adobe.custom.btn3 {
+        margin-left: 111px;
+    }
+    
+  
+    button.btn-Adobe.custom.btn2 {
+        margin-left: 29px;
+    }
+    .box-4year h2 {
+        font-size: 29px;
+        letter-spacing: 2px;
+    }
+    
+    .box-4year h1 {
+        font-size: 59px;
+    }
+   
+    
+    .logo-ul img {
+        width: 97%;
+    }
+    
+    .logo-box {
+        width: 91%;
+        margin: auto;
+        margin-top: 32px;
+    }
+    
+ }  
+    
+    
+    
+
+
+@media (max-width: 1199.98px) {
+	html {
+		font-size: 14px;
+	}
+}
+@media (max-width: 991.98px) {
+	html {
+		font-size: 13px;
+	}
+}
+@media (max-width: 767.98px) {
+	html {
+		font-size: 12px;
+	}
+	.hidden-xs {
+		display: none!important;
+	}
+ 
+}
+@media (max-width: 575px) {
+    .banner-logo-img {
+        margin-left: 57px;
+        width: 68%;
+        margin-bottom: 33px;
+    }
+    
+    .salman .salman-text h1 {
+        font-size: 27px;
+        /* margin-left: -94px; */
+    }
+    
+    .salman-text h1 strong {
+        font-size: 32px;
+    }
+    
+    .salman-text.text-center img.hand {
+        height: 72px;
+        margin-right: 2px;
+    }
+    
+    .salman .salman-text h3 {
+        font-size: 19px;
+        /* margin-left: -45px; */
+    }
+    
+    .salman-text.text-center {
+        margin-left: -80px;
+    }
+    
+    .salman .salman-text p {
+        font-size: 13px;
+    }
+    
+    .salman .salman-text p span {
+        font-size: 12px;
+    }
+    
+    .hire-btn .btn1 {
+        padding: 5px 14px;
+        font-size: 16px;
+    }
+    
+    button.btn2 {
+        padding: 7px 15px;
+        font-size: 15px;
+    }
+    
+    .hire-btn .btn2 {
+        padding: 7px 26px;
+        font-size: 15px;
+    }
+    
+    .hire-btn.text-center .btn1 i {
+        font-size: 17px;
+    }
+    
+    .banner img {
+        width: 70% !important;
+        margin: 84px 57px;
+    }
+}
+@media (max-width: 375.98px) {
+
+    .salman {
+        padding-top: 21px;
+    }
+    
+    .banner-logo-img li img {
+        width: 82%;
+        margin: -8px;
+    }
+    section.contact-form {
+        margin-top: 43px;
+       
+    }
+    
+    .line {
+        margin-top: 49px;
+    }
+    
+    section.Connect {
+        margin-top: 34px;
+    }
+    
+    .txt-client h1 {
+        font-size: 24px;
+        padding-bottom: 21px;
+    }
+    
+    section.Discuss {
+        margin-top: 37px;
+    }
+    
+    .Discuss-text h1 {
+        font-size: 24px;
+    }
+    
+    
+    section.Clients {
+        margin-top: -25px;
+    }
+    
+    .Projects-text h1 {
+        font-size: 21px;
+    }
+    
+    .banner-logo-img {
+        padding: 5px 0px;
+    }
+    
+    .salman-text.text-center h1 {
+        font-size: 18px;
+        margin-bottom: -26px;
+    }
+    
+    .salman-text.text-center h1 strong {
+        font-size: 23px;
+    }
+    
+  
+    .logo-box {
+        width: 100%;
+    }
+    
+    .logo-ul li {
+        font-size: 10px;
+    }
+    
+    .logo-ul img {
+        width: 68%;
+    }
+    
+    .laptop-man.text-center img {
+        width: 56%;
+    }
+    
+    .salman-text.text-center img.hand {
+        height: 65px;
+    }
+    
+    .salman .salman-text h3 {
+        font-size: 12px;
+    }
+    
+    .salman .salman-text p {
+        font-size: 8px;
+    }
+    
+    .salman .salman-text p span {
+        font-size: 8px;
+    }
+    
+    button.btn-Adobe.custom {
+        display: none;
+    }
+    
+    .sub img {
+        height: 181px;
+        margin-top: -245px;
+    }
+    
+    .about-text h1 {
+        font-size: 33px;
+    }
+    
+    section.about {
+        margin-top: 12px;
+    }
+    
+    .about-text h1 {
+        padding-bottom: 20px;
+    }
+    
+    .love li h3 {
+        font-size: 35px;
+    }
+    
+
+    
+    .love .love-cir {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .love .cir-2 {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .love ul {
+        gap: 13px;
+    }
+    
+    .money-btn {padding: 0;}
+    
+    .box-4year {
+        margin-bottom: 24px;
+    }
+    
+    .txt-box p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    
+    .skills-text h1 {
+        font-size: 42px;
+    }
+    
+    .btn-Adobe {
+        font-size: 14px;
+    }
+    
+    .btn-Adobe img {
+        width: 25%;
+    }
+    
+    .Projects-text h1 {
+        font-size: 27px;
+    }
+    
+ 
+    
+    .txt-client h1 {
+        font-size: 32px;
+    }
+    
+    .Discuss-text h1 {
+        font-size: 32px;
+    }
+    
+    .Discuss-txt h1 {
+        font-size: 20px;
+    }
+    
+    .Discuss-btn .DIscuss-Project {
+        font-size: 14px;
+        padding: 10px 17px;
+    }
+    
+    .Discuss-btn .Resume {
+        font-size: 19px;
+    }
+    
+    .link li button {
+        width: 78%;
+        margin-left: 35px;
+        margin-bottom: 9px;
+    }
+    
+    
+    
+    .laptop.text-center img {
+        height: 214px;
+    }
+    
+    .line.red-line {
+        margin-top: -48px;
+    }
+    
+    .contact-txt h1 {
+        font-size: 32px;
+    }
+    
+    .detail input {
+        padding-left: 50px;
+    }
+}

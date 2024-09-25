@@ -1,0 +1,705 @@
+body{
+    background: rgba(12, 12, 12, 1);
+    overflow-x: hidden;
+
+ }
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none !important;
+    list-style: none;
+    
+}
+
+.banner img{
+    animation: rotate-center 100s linear infinite both;
+
+}
+/* @media (min-width: 1024px) {
+    .container{
+        max-width: 1293px;
+    }
+    .Pricing_Sec .container {
+        max-width: 1360px;
+    }
+  } */
+    
+    @keyframes rotate-center{ 
+        0% {
+            transform: rotate(0);
+        }
+        
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+
+    /* salman */
+ .salman{
+        padding: 72px 0px 0px;
+        position: relative;
+}
+.salman-text.text-center {
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: -7px;
+}
+.salman .salman-text h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+.salman-text h1 strong{
+        color: rgba(218, 18, 18, 1);
+        font-weight: 800;
+        font-size: 59px;
+}
+    .salman .salman-text h3{
+        font-size: 42px;
+        font-weight: 600;
+        color:  rgba(255, 255, 255, 1);
+        text-transform: uppercase;
+        margin-bottom: 21px;
+        letter-spacing: 1px;
+    }
+    .salman .salman-text h3 span{
+        font-weight: 300;
+        margin-right:11px ;
+    }
+    .salman .salman-text p{
+        font-size: 30px;
+        color:  rgb(255, 255, 255);
+        font-weight: 300;
+        letter-spacing: 1px;
+        margin-bottom: 27px;
+    }
+    .salman .salman-text p span{
+            color: rgba(218, 18, 18, 1);
+            background-color: #8d8c8c21;
+            font-weight: bold;
+            padding: 3px 13px 3px 13px;
+            border-radius: 50px;
+            border: 2px solid #f7f5f515;
+            margin-bottom: 0px;
+            font-size: 23px;
+    }
+    .hire-btn .btn1 {
+        color: rgba(218, 18, 18, 1);
+        background-color: rgba(218, 18, 18, 0.116);
+        border: none;
+        padding: 10px 36px 11px 36px;
+        border-radius: 49px;
+        border: 2px solid;
+        font-size: 24px;
+    }
+    .hire-btn .btn2 {
+        color:white;
+        background-color: rgba(218, 18, 18, 1);
+        border: none;
+        padding: 12px 36px 10px 36px;
+        border-radius: 49px;
+        font-size: 24px;
+        margin-left: 18px;
+    }
+    .sub img {
+        margin-top: 44px;
+    }
+    .line1 {
+        height: 2px;
+        background: #DA1212;
+        margin-top: -18px;
+    }
+    
+   /* about */
+
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 0;
+}
+
+.about-text h1{
+    color: rgba(218, 18, 18, 1);
+    font-size: 60px;
+    font-weight: 700;
+    padding-bottom: 94px;
+}
+.love ul{
+    display: flex;
+    text-align: center;
+    gap: 50px;
+}
+section.about {
+    margin-top: 100px;
+}
+.love li h3{
+    color: rgba(218, 18, 18, 1);
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.love .love-cir{
+    width: 68px;
+    height: 68px;
+    border: 2px solid rgba(218, 18, 18, 1);
+    border-radius: 50%;
+    padding: 3px;
+}
+.love .cir-2{
+    width: 58px;
+    height: 58px;
+    background-color: rgba(218, 18, 18, 1);;
+    border-radius: 50%;
+}
+.music-btn{
+    display: flex;
+    background-color: rgba(255, 255, 255, 1);
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    gap: 6px;
+    padding: 5px 5px 5px 5px;
+}
+.music-btn span{
+    color: #619CE4;
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.money-btn{
+    display: flex;
+    background-color: rgba(255, 255, 255, 1);
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    gap: 10px;
+    padding: 6px;
+}
+.money-btn span{
+    color: #00B34C;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding: 11px 0px 11px;
+}
+.box-4year{
+    background-color: rgba(255, 255, 255, 0.034);
+    padding: 65px 36px 73px 36px;
+    border-radius: 44px;
+    margin-left: 3px;
+}
+.box-4year h1{
+    color: #DA1212;
+    font-size: 70px;
+    font-weight: 700;
+}
+.box-4year h2{
+    color: white;
+    font-size: 37px;
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    line-height: 41px;
+}
+.txt-box{
+    background-color: rgba(255, 255, 255, 0.034);
+    margin-top: 50px;
+    padding: 35px 41px 10px;
+    border-radius: 20px;
+}
+.txt-box p{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 46px;
+    margin-bottom: 30px;
+    letter-spacing: 2;
+}
+.txt-box p span{
+    color: #DA1212;
+}
+.contact{
+    color: #DA1212;
+    padding: 10px 34px 10px;
+    font-size: 24px;
+    border: 1px solid  #DA1212;
+    background-color: rgba(218, 18, 18, 0.15);
+    margin: auto;
+    margin-top: 42px;
+    border-radius: 30px;
+    display: flex;
+}
+ i{
+    color: #DA1212;
+    font-size: 20px;
+}
+.line{
+    margin-top: 100px;
+    height: 2px;
+    background-color: #DA1212;
+}
+
+
+
+
+    /* skill */
+    
+    .skills-text h1{
+        color: rgba(218, 18, 18, 1);
+        font-size: 60px;
+        font-weight: 700;
+        /* margin-top: 120px; */
+    }
+    .app-btn ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       margin-top: 30px;
+       gap: 30px;
+       margin-bottom: 0;
+    }
+    .btn-Adobe{
+        font-size: 24px;
+        font-weight: 500;
+        background-color: white;
+        color: black;
+        padding: 8px 20px 8px;
+        border-radius: 30px;
+    }
+    .btn-Adobe img{
+        border-radius: 50%;
+    }
+
+
+
+
+    /* Projects */
+    
+    .Projects{
+        margin-top: 100px;
+    }
+    .Projects-text h1{
+        color: #DA1212;
+        font-size: 60px;
+        font-weight: 700;
+    }
+    .btn-See{
+        color: #DA1212;
+        border: 1px solid #DA1212;
+        padding: 8px 20px 8px;
+        font-size: 24px;
+        border-radius: 30px;
+        margin:auto;
+        margin-top: 90px;
+    }
+
+
+
+    /* Discuss */
+    .Discuss{
+        margin-top: 100px;
+    }
+    .Discuss-text h1{
+        color: #DA1212;
+        font-size: 60px;
+        font-weight: 700;
+    }
+    .Discuss-box{
+        background-color:rgba(217, 217, 217, 0.05);
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border-radius: 20px;
+        margin-top: 30px;
+    }
+    .Discuss-cir{
+        width: 68px;
+        height: 68px;
+        border: 2px solid rgba(218, 18, 18, 1);
+        border-radius: 50%;
+        padding: 3px;
+    }
+    .black-cir{
+        width: 58px;
+        height: 58px;
+        background-color: rgb(0, 0, 0);;
+        border-radius: 50%;
+        
+    }
+    .Discuss-txt h1{
+        color: #DA1212;
+        font-size: 48px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .Discuss-txt p{
+        font-size: 20px;
+        color: white;
+    }
+    .Discuss-btn{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 10px;
+    }
+    .Discuss-btn .Resume{
+        color: #DA1212;
+        padding: 5px 34px 5px;
+        font-size: 24px;
+        border: 1px solid  #DA1212;
+        background-color: rgba(218, 18, 18, 0.15);
+       
+        border-radius: 30px;
+    }
+    .Discuss-btn .DIscuss-Project{
+        color: #ffffff;
+        padding: 5px 30px 5px;
+        font-size: 24px;
+        background-color: rgb(255, 0, 0);
+    
+        border-radius: 30px;
+        border: none;
+    }
+   
+
+/* clients */
+.Clients{
+    margin-top: 100px;
+}
+.star ul{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-bottom: 18px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 27px;
+}
+.txt-client h1 {
+    color: rgba(218, 18, 18, 1);
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 67px;
+}
+
+.star li i {
+    color: rgba(253, 196, 72, 1);
+    font-size: 15px;
+}
+.client-box {
+    background: rgba(22, 22, 22, 1);
+    padding: 38px 27px;
+    border-radius: 34px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.client-box:hover{
+    border-radius: 0;
+    transition: all .6s ease;
+}
+
+.client-box:after {
+    transition: all 0.5s ease;
+    position: absolute;
+    content: "";
+    background: #DA1212;
+    height: 0px;
+    width: 0px;
+    border-radius: 0px;
+    top: 50%;
+    right: 42%;
+    z-index: -1;
+}
+.client-box:hover:after {
+    transition: all 0.5s ease;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0px;
+   
+}
+.star h4 {
+    color: #fff;
+    margin-right: 12px;
+}
+
+.star p {
+    color: #fff;
+}
+
+.client-box p {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 23px;
+}
+.client-img ul {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 0;
+}
+.client-img h4 {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.client-img h4 span {
+    display: block;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* Connect */
+
+.link ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+    margin-bottom: 26px;
+}
+
+.link li button {
+    border-radius: 78px;
+    font-size: 29px;
+    font-weight: 700;
+    padding: 4px 41px;
+    border: 3px solid black;
+} 
+
+.link button a img {
+    height: 70px;
+    margin-right: 8px;
+}
+section.Connect {
+    margin-top: 100px;
+}
+/* skill */
+
+section.skill {
+    margin-top: 100px;
+}
+.gray-box {
+    background: rgba(20, 20, 20, 1);
+    padding: 35px 55px;
+    border-radius: 20px;
+}
+
+.contact-txt h1 {
+    color: #DA1212;
+    text-align: center;
+    margin-bottom: 42px;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.detail input {
+    margin-bottom: 21px;
+    background: rgba(36, 36, 36, 1);
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    padding: 20px 0px 20px 69px;
+    /* background-image: url(../img/Vector-1.png); */
+    background-repeat: no-repeat;
+    background-position: 7% 50%;
+    width: 100%;
+    color: white;
+}
+.detail textarea {
+    width: 100%;
+    height: 202px;
+    border-radius: 16px;
+    background: rgba(36, 36, 36, 1);
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 18px 0px 0px 24px;
+}
+.send a{
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 14px;
+}
+button.send {
+    padding: 10px 31px;
+    background: rgba(218, 18, 18, 1);
+    font-size: 24px;
+    border: navajowhite;
+    border-radius: 50px;
+ 
+    margin: 24px 20px;
+}
+section.contact-form {
+    margin-top: 221px;
+}
+input.subjext {
+    padding-left: 39px;
+}
+input.man-img{
+    background-image: url(../img/Vector-1.png);
+}
+input.phone-img{
+    background-image: url(../img/Vector.png);
+}
+input.emial-img{
+    background-image: url(../img/Vector-2.png);
+}
+
+.logo-box {
+    background: rgba(218, 18, 18, 1);
+    padding: 12px 26px;
+    border-radius: 50px;
+    margin-top: 39px;
+}
+
+.logo-ul ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.logo-ul li {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.logo-ul li span {
+    font-weight: 500;
+}
+
+footer.foot {
+    margin-top: 117px;
+}
+.link ul li img {
+    margin-left: -27px;
+}
+.btn-Adobe.custom {
+    padding: 14px 22px;
+    font-size: 20px;
+    display: flex;
+    gap: 17px;
+    margin-bottom: 85px;
+    border: none;
+}
+.banner-btn {
+    margin-top: 225px;
+}
+
+
+
+/* btn */
+
+button.btn-Adobe.custom.btn1 {
+    margin-left: 205px;
+}
+
+button.btn-Adobe.custom.btn3 {
+    margin-left: 100px;
+}
+
+button.btn-Adobe.custom.btn4 {
+    margin-left: -91px;
+}
+
+button.btn-Adobe.custom.btn5 {
+    margin-left: 75px;
+}
+
+button.btn-Adobe.custom.btn6 {
+    margin-left: -35px;
+}
+
+
+.banner-logo-img ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.banner-logo-img {
+    background: #fff;
+    padding: 7px 16px;
+    border-radius: 50px;
+    margin-bottom: 89px;
+}
+
+.salman-text.text-center img.hand {
+    margin: 0px 17px 43px 0px;
+}
+.line.red-line {
+    margin-top: -110px;
+}
+
+
+
+/* pic */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
